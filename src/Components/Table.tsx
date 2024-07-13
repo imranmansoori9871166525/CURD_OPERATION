@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { IEmployee, PageEnum } from "../types/Employee.type";
-import { EmpData } from "./EmployData";
+// import { EmpData } from "./EmployData";
 import styles from "./Styles/Table.module.css";
 import EmployeeList from "./EmployeeList";
 import AddEmployee from "./AddEmployee";
