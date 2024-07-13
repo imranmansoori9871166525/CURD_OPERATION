@@ -1,0 +1,12 @@
+.section_content {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+}
+.add_employee_btn {
+    float: right;
+    margin-bottom: 10px;
+}
+.header_text {
+  text-align: center;
+}
