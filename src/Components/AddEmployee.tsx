@@ -27,14 +27,14 @@ const AddEmployee: React.FC<AddMemberProps> = ({
     };
     onSubmitClickHnd(data);
     onBackBtnClickHnd();
-    console.log("called add function")
+    console.log("called add function");
   };
 
   return (
     <div className={styles.form_container}>
       <h3>Add Employee</h3>
       <form>
-      {/* <form onClick={onSubmitBtnClickHnd}> */}
+        {/* <form onClick={onSubmitBtnClickHnd}> */}
         <div>
           <label>First Name : </label>
           <input
@@ -73,7 +73,11 @@ const AddEmployee: React.FC<AddMemberProps> = ({
         </div>
         <div>
           <input type="button" value="Back" onClick={onBackBtnClickHnd} />
-          <input type="submit" value="Add Employee" onClick={onSubmitBtnClickHnd}/>
+          <input
+            type="submit"
+            value="Add Employee"
+            onClick={onSubmitBtnClickHnd}
+          />
         </div>
       </form>
     </div>

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { IEmployee, PageEnum } from "../types/Employee.type";
-import { EmpData } from "./EmployData";
+// import { EmpData } from "./EmployData";
 import styles from "./Styles/Table.module.css";
 import EmployeeList from "./EmployeeList";
 import AddEmployee from "./AddEmployee";
@@ -53,6 +53,7 @@ const Table: React.FC = () => {
     _setEmployeeListStorageLocally(updatedList);
   };
 
+  console.log("DataToEdit = " , dataToEdit)
   return (
     <section className={styles.section_content}>
       {showpage === PageEnum.list && (
